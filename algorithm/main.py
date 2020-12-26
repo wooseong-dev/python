@@ -1,5 +1,3 @@
-from judge_sign import judge_sign 
-
-
-
-judge_sign(j)
+import sys
+sys.path.append("/workspace/python/algorithm/module")
+print(sys.path)
