@@ -1,11 +1,11 @@
-from flask import Blueprint
+from flask import Blueprint, render_template
 
-city = Blueprint('city', __name__, url_prefix='/') # 블루 프린트 객체 생성
+bp = Blueprint("main", __name__, url_prefix='/')
 
-@city.route('/')
+@bp.route('/')
 def question():
-    return 'which one like u'
+    return 'hi hello'
 
-@city.route('/<name>')
-def answer(name):
-    return 'index' + name
+@bp.route('/df')
+def answer():
+    return 'He iekrkk'
