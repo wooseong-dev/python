@@ -1,0 +1,82 @@
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:834: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Running on http://172.17.0.11:8000/ (Press CTRL+C to quit)
+ * Restarting with stat
+/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:834: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Debugger is active!
+ * Debugger PIN: 556-468-215
+172.17.0.1 - - [23/Jan/2021 01:22:05] "[37mGET / HTTP/1.1[0m" 200 -
+172.17.0.1 - - [23/Jan/2021 01:22:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+172.17.0.1 - - [23/Jan/2021 01:22:06] "[37mGET / HTTP/1.1[0m" 200 -
+172.17.0.1 - - [23/Jan/2021 01:22:06] "[37mGET / HTTP/1.1[0m" 200 -
+172.17.0.1 - - [23/Jan/2021 01:22:06] "[37mGET / HTTP/1.1[0m" 200 -
+172.17.0.1 - - [23/Jan/2021 01:29:15] "[37mGET / HTTP/1.1[0m" 200 -
+ * Detected change in '/workspace/python/Flask/pybo/app.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "/workspace/python/Flask/pybo/app.py", line 6, in <module>
+    from . import models
+ImportError: cannot import name 'models' from '__main__' (/workspace/python/Flask/pybo/app.py)
+Traceback (most recent call last):
+  File "app.py", line 6, in <module>
+    from . import models
+ImportError: cannot import name 'models' from '__main__' (app.py)
+Traceback (most recent call last):
+  File "app.py", line 6, in <module>
+    from . import models
+ImportError: cannot import name 'models' from '__main__' (app.py)
+Traceback (most recent call last):
+  File "app.py", line 6, in <module>
+    from . import models
+ImportError: cannot import name 'models' from '__main__' (app.py)
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:834: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+Traceback (most recent call last):
+  File "app.py", line 21, in <module>
+    app.run(host = '172.17.0.11', port=8000, debug=True)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 99] Cannot assign requested address
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:834: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Running on http://172.17.0.3:8000/ (Press CTRL+C to quit)
+ * Restarting with stat
+/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:834: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Debugger is active!
+ * Debugger PIN: 212-352-009
+172.17.0.1 - - [23/Jan/2021 02:17:59] "[37mGET / HTTP/1.1[0m" 200 -
+172.17.0.1 - - [23/Jan/2021 03:37:21] "[37mGET / HTTP/1.1[0m" 200 -
+172.17.0.1 - - [23/Jan/2021 03:37:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+172.17.0.1 - - [23/Jan/2021 03:37:32] "[37mGET / HTTP/1.1[0m" 200 -
+172.17.0.1 - - [23/Jan/2021 03:37:47] "[37mGET / HTTP/1.1[0m" 200 -
+ * Detected change in '/workspace/python/Flask/pybo/views/main_views.py', reloading
+ * Restarting with stat
+/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:834: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Debugger is active!
+ * Debugger PIN: 212-352-009
+172.17.0.1 - - [23/Jan/2021 03:39:53] "[37mGET / HTTP/1.1[0m" 200 -
+172.17.0.1 - - [23/Jan/2021 03:39:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+172.17.0.1 - - [23/Jan/2021 03:40:08] "[37mGET / HTTP/1.1[0m" 200 -
+172.17.0.1 - - [23/Jan/2021 04:33:30] "[37mGET / HTTP/1.1[0m" 200 -
+172.17.0.1 - - [23/Jan/2021 08:08:08] "[37mGET / HTTP/1.1[0m" 200 -
+172.17.0.1 - - [23/Jan/2021 08:08:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
